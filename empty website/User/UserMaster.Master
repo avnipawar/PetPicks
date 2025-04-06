@@ -1,0 +1,192 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UserMaster.master.cs"
+    Inherits="empty_website.User.UserMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Pet Picks</title>
+       <link rel="icon" href="../img/dogicon.jpg"
+          type="image/x-icon">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../fontawesome/css/all.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="bg-dark text-light">
+<a href="#" id="scroll" style="display: none;"><span></span></a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="../img/petpicks.png" /></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="UserHome.aspx">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="displayproducts.aspx">DisplayProducts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="YourCart.aspx">YourCart</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="Orders.aspx">YourOrders</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ChangePassword.aspx">ChangePassword</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="UserLogout.aspx">Logout</a>
+        </li>
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class=" mt-5">
+        <footer class="text-dark text-center text-lg-start bg-light" >
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row mt-4">
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-1">Reach Us</h5>
+  
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59339.64180866043!2d69.58908589644643!3d21.635535309188153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3956345051c2f8e5%3A0x9e2165b8de9bd8ca!2sPorbandar%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1707483686578!5m2!1sen!2sin" height="150" style="border:0;width:100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
+          
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+         
+  
+          <ul class="fa-ul" style="margin-left: 4.65em;">
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Porbandar, Gujarat, India </span>
+            </li>
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">pawaravni14@gmail.com</span>
+            </li>
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 91 234 567 8822</span>
+            </li>
+            </ul>
+            <div class="mt-4" style="margin-left: 2.65em;">
+            <!-- Facebook -->
+            <a type="button" class="btn btn-floating btn-primary btn-lg rounded-circle p-2"><i class="fab fa-facebook"></i></a>
+            <!-- Dribbble -->
+            <a type="button" class="btn btn-floating btn-primary btn-lg p-2 rounded-circle "><i class="fab fa-whatsapp"></i></a>
+            <!-- Twitter -->
+            <a type="button" class="btn btn-floating btn-primary btn-lg p-2 rounded-circle "><i class="fab fa-twitter"></i></a>
+            <!-- Google + -->
+            <a type="button" class="btn btn-floating btn-primary btn-lg p-2 rounded-circle "><i class="fab fa-youtube"></i></a>
+            <a type="button" class="btn btn-floating btn-primary btn-lg p-2 rounded-circle "><i class="fab fa-instagram"></i></a>
+            <a type="button" class="btn btn-floating btn-primary btn-lg p-2 rounded-circle "><i class="fab fa-linkedin"></i></a>
+
+            <!-- Linkedin -->
+          </div>
+          
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Opening hours</h5>
+  
+          <table class="table text-center text-dark">
+            <tbody class="font-weight-normal">
+              <tr>
+                <td>Mon - Thu:</td>
+                <td>8am - 9pm</td>
+              </tr>
+              <tr>
+                <td>Fri - Sat:</td>
+                <td>8am - 1am</td>
+              </tr>
+              <tr>
+                <td>Sunday:</td>
+                <td>9am - 10pm</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3 bg-dark text-light">
+      © 2021 Copyright:
+      <a class="text-white" href="">petpicks.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+    </div>
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('#scroll').fadeIn();
+                } else {
+                    $('#scroll').fadeOut();
+                }
+            });
+            $('#scroll').click(function () {
+                $("html, body").animate({ scrollTop: 0 }, 600);
+                return false;
+            });
+        });</script>
+    <style>
+        #scroll
+        {
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            cursor: pointer;
+            width: 50px;
+            height: 50px;
+            background-color: #3498db;
+            text-indent: -9999px;
+            display: none;
+            -webkit-border-radius: 60px;
+            -moz-border-radius: 60px;
+            border-radius: 60px;
+        }
+        #scroll span
+        {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -8px;
+            margin-top: -12px;
+            height: 0;
+            width: 0;
+            border: 8px solid transparent;
+            border-bottom-color: #ffffff;
+        }
+        #scroll:hover
+        {
+            background-color: #e74c3c;
+            opacity: 1;
+            filter: "alpha(opacity=100)";
+            -ms-filter: "alpha(opacity=100)";
+        }
+    </style>
+    <script src="../bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+</html>
