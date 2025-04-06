@@ -69,6 +69,12 @@
     <Content Include="Admin\ChangePassword.aspx" />
     <Content Include="Admin\DisplayProducts.aspx" />
     <Content Include="Admin\Orders.aspx" />
+    <Content Include="Admin\pexels-filirovska-7140805.jpg" />
+    <Content Include="Admin\pexels-i-rem-cevik-978247792-30111621.jpg" />
+    <Content Include="Admin\pexels-pet-foto-644780685-18124748.jpg" />
+    <Content Include="Admin\pexels-pixabay-357141.jpg" />
+    <Content Include="Admin\pexels-vina-lina-242487143-12314459.jpg" />
+    <Content Include="Admin\pexels-zeynep-katirci-1130225569-30169847.jpg" />
     <Content Include="Admin\updateProduct.aspx" />
     <Content Include="Admin\ViewFullProduct.aspx" />
     <Content Include="Admin\WebForm1.aspx" />
@@ -2508,6 +2514,12 @@
     <Content Include="img\neom-x4vxK4VGKX0-unsplash.jpg" />
     <Content Include="img\Pedigree-C_T-collection-page-banner_1688x469.jpg" />
     <Content Include="img\petpicks.png" />
+    <Content Include="img\pexels-filirovska-7140805.jpg" />
+    <Content Include="img\pexels-i-rem-cevik-978247792-30111621.jpg" />
+    <Content Include="img\pexels-pet-foto-644780685-18124748.jpg" />
+    <Content Include="img\pexels-pixabay-357141.jpg" />
+    <Content Include="img\pexels-vina-lina-242487143-12314459.jpg" />
+    <Content Include="img\pexels-zeynep-katirci-1130225569-30169847.jpg" />
     <Content Include="img\qingbao-meng-01_igFr7hd4-unsplash.jpg" />
     <Content Include="img\Shebahome-Collection-page-banner_1688x469.jpg" />
     <Content Include="img\Truelove-collection-page-banner_1688x469.jpg" />
